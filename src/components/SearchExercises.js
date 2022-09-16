@@ -5,7 +5,7 @@ import HorizontalScrollbar from './HorizontalScrollbar';
 
 
 
-const SearchExercises = ({setExercises, bodyPart,setBodyPart}) => {
+const SearchExercises = ({setExercises, bodyPart,setBodyPart, isBodyParts}) => {
   const [search, setSearch] = useState('');
 const [bodyParts, setBodyParts] = useState([]);
   useEffect(() => {
@@ -58,7 +58,7 @@ const [bodyParts, setBodyParts] = useState([]);
         width: '100%',
         p: '20px'
       }}>
-<HorizontalScrollbar data={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart}/>
+<HorizontalScrollbar data={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart} isBodyParts />
       </Box>
     </Stack>
   )
