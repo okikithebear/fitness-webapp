@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project was also built using RapidApis of two diffrent sorts also built predominantly using material Ui
+
 ## Available Scripts
 
 In the project directory, you can run:
